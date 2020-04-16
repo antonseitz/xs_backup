@@ -1,0 +1,1 @@
+20 * * * * /xenbackup/xs_backup/VmBackup/VmBackup.py pwd.file my.cfg 
