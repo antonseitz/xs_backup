@@ -8,7 +8,7 @@ git clone --recursive https://github.com/antonseitz/xs_backup
 
 
 
-##CONFIG
+## CONFIG
 
 
 create password file:
@@ -16,10 +16,10 @@ create password file:
 ./VmBackup.py  <password> create-password-file=pwd.file
 
 
-##Modify CFG
+## Modify CFG
 
 
-##COMMENTS
+## COMMENTS
 
 
 XenAPI.py was taken from Xen SDK
