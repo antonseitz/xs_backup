@@ -1,14 +1,14 @@
-## Backup script which uses VMBackup
+# Backup script which uses VMBackup
 
 
-# INSTALL
+## INSTALL
 
 
 git clone --recursive https://github.com/antonseitz/xs_backup
 
 
 
-CONFIG
+##CONFIG
 
 
 create password file:
@@ -16,10 +16,10 @@ create password file:
 ./VmBackup.py  <password> create-password-file=pwd.file
 
 
-Modify CFG
+##Modify CFG
 
 
-
+##COMMENTS
 
 
 XenAPI.py was taken from Xen SDK
