@@ -1,0 +1,3 @@
+[submodule "VmBackup"]
+	path = VmBackup
+	url = https://github.com/NAUbackup/VmBackup
