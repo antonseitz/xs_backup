@@ -1,2 +1,4 @@
 pwd.file
 XenAPI.pyc
+logs/*.log
+vm_backups/*

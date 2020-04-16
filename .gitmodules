@@ -1,3 +1,6 @@
 [submodule "VmBackup"]
 	path = VmBackup
 	url = https://github.com/NAUbackup/VmBackup
+[submodule "py_helper"]
+	path = py_helper
+	url = https://github.com/antonseitz/py_helper

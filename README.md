@@ -19,6 +19,11 @@ create password file:
 ## Modify CFG
 
 
+## Activate backup schedule
+
+./xs_backup_configure.py
+
+
 ## COMMENTS
 
 
