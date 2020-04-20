@@ -28,3 +28,8 @@ create password file:
 
 
 XenAPI.py was taken from Xen SDK
+
+Mail Notification:
+
+
+https://docs.python.org/3/library/smtplib.html
