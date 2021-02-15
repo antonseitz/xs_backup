@@ -22,7 +22,8 @@ if ask("Should we add an cronjob ? ")=="":
 	
     crontab=open("/var/spool/cron/root", "a")
     
-    crontab.write( time[0]+ " " + time[1] +" * * * " + path + "/VmBackup/VmBackup.py " + path + "/pwd.file " + path + "/my.cfg >> " + path + "/logs/" + hostname + ".log 2>&1\n")
+    crontab.write( time[0]+ " " + time[1] +" * * * " + path + "/VmBackup/VmBackup.py " + path + "/pwd.file " + path + "/daily.cfg >> " + path + "/logs/" + hostname + ".log 2>&1\n")
+    crontab.write( time[0]+ " " + time[1] +" * * * " + path + "/VmBackup/VmBackup.py " + path + "/pwd.file " + path + "/weekly.cfg >> " + path + "/logs/" + hostname + ".log 2>&1\n")
     crontab.close()
 else:
     print("Skipped!")
