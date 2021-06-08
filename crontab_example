@@ -1,3 +1,5 @@
-00 21 * * 1-5,7 /backup/xenbackup/xs_backup/VmBackup/VmBackup.py /backup/xenbackup/xs_backup/pwd.file /backup/xenbackup/xs_backup/daily.cfg >> /backup/xenbackup/xs_backup/logs/icoms.log 2>&1
+00 00 * * * /usr/bin/mount -a
+@reboot  sleep 900; /usr/bin/systemctl restart chrony-wait
+00 21 * * 1-5 /backup/xenbackup/xs_backup/VmBackup/VmBackup.py /backup/xenbackup/xs_backup/pwd.file /backup/xenbackup/xs_backup/daily.cfg >> /backup/xenbackup/xs_backup/logs/icoms.log 2>&1
 00 21 * * 6 /backup/xenbackup/xs_backup/VmBackup/VmBackup.py /backup/xenbackup/xs_backup/pwd.file /backup/xenbackup/xs_backup/weekly.cfg >> /backup/xenbackup/xs_backup/logs/icoms.log 2>&1
 
